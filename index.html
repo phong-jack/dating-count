@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dating Counter - Cún & Meo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="overlay"></div>
+    
+    <main class="container">
+        <h1>Love Journey</h1>
+        
+        <section class="profiles">
+            <div class="profile-card">
+                <img src="assets/male.png" alt="Cún" id="male-avatar" class="avatar">
+                <span id="male-name" class="name">Cún</span>
+            </div>
+            
+            <div class="heart-center">❤️</div>
+            
+            <div class="profile-card">
+                <img src="assets/female.png" alt="Meo" id="female-avatar" class="avatar">
+                <span id="female-name" class="name">Meo</span>
+            </div>
+        </section>
+
+        <section class="timer-section">
+            <p>Chúng ta đã bên nhau được</p>
+            <div id="days" class="days-count">0</div>
+            <p>ngày</p>
+
+            <div class="time-breakdown">
+                <div class="time-unit">
+                    <span id="hours">00</span>
+                    Giờ
+                </div>
+                <div class="time-unit">
+                    <span id="minutes">00</span>
+                    Phút
+                </div>
+                <div class="time-unit">
+                    <span id="seconds">00</span>
+                    Giây
+                </div>
+            </div>
+        </section>
+
+        <div class="footer-note">
+            Bắt đầu từ: <span id="start-date-label">14/03/2026</span>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
